@@ -11,7 +11,7 @@ module.exports = function BroochFix(mod) {
 
     function isNewBrooch(id)
     {
-        return (BROOCHES.indexOf(id) > -1);
+        return true;//(BROOCHES.indexOf(id) > -1);
     }
 
     function equipedBrooch()
